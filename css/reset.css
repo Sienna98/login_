@@ -1,0 +1,127 @@
+/* reset.css */
+/**** reset *****/
+
+/**** widths *****/
+.logoTop{width: 120px;padding-bottom: 20px;}
+.width10 { width: 10%; }.width11 { width: 11.11%; } .width12 { width: 12%; } .width13 { width: 13.333%; }.width14 { width: 14.28%; }.width15 { width: 15%; } .width16 { width: 16.666%; }.width19 { width: 19.2%;margin-right: 1%; }.width20 { width: 20%; }.width22 { width: 22%;line-height: 44px; } .width25 { width: 25%; } .width29 { width: 29%; } 
+.width30 { width: 30%; } .width33 { width: 32.999999%; }.width40 { width: 40%; } .width49 { width: 49%; } .width50 { width: 50%; } .width60 { width: 60%; } .width80 { width: 80%; } .width90 { width: 90%; } .width100{ width: 100%; }
+.w3-border td.textAlign_le { text-align: left; }
+.heade{position: fixed;width: 100%;top: 45px;left: 0px;display: block;padding-left: 230px;}
+.heade > table { width: 100%; border: 1px solid #ccc!important; font-weight: bold; } 
+.ultable td { padding: 4px 4px; padding-left: 8px; font-size: 90%; background: #fff; color: #294450; text-align-last: center; } 
+.wpl-ul { padding: 8px 16px; }
+
+.w3-bar .w3-button { white-space: normal; border-radius: 3px; font-size: 14px; font-weight: bold; } 
+.w3-border td { border-right: 1px solid #ddd; text-align: center; } 
+.flo-left { float: left; } 
+.flo-right { float: right; } 
+.r_padd { padding-right:20px; } 
+.b_padd { padding-bottom: 10px; } 
+.padd { padding: 10px 0; }
+.marginTop{margin-top: 10px;}
+.mMarTop{margin-top: 0px;}
+
+.setbox00 > ul,.setbox01 > ul, .setbox03 > ul{margin: 0;padding: 10px;}
+.setbox00 > ul > li > input,.setbox01 > ul > li > input, .setbox03 > ul > li > input[type=number], input[type=text]{height: 44px;padding: 0;}
+.setbox00{height: 66px;margin:0;margin-right: 10px;}
+.setbox01{width: 29%;height: 66px;margin:0;margin-right: 10px;}
+.setbox02{height: 66px;border-radius: 8px;}
+.setbox03{width: 32.5%;height: 66px;margin:0;margin-right: 10px;}
+.setboxbtn01{width: 100%;height: 64px;}
+.setboxbtn02{width: 100%;height: 44px;}
+
+.pay_ad_ul { margin: 0; padding: 0; } 
+.ulstyle { display: block; list-style-type: disc; margin-block-start: 0px; margin-block-end: 0px; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 0px; } 
+.w3-border td, .w3-border th { border-right: 1px solid #ddd; text-align: center; } 
+.add_v { margin-top:20px; margin-right: 10px; } 
+.text_white { color: white; } 
+.log_btn {background-color: #7298c8!important; white-space: normal; border-radius: 3px; font-size: 14px; margin: 7px 20px 7px 30px; font-weight: bold; border: none; display: inline-block; padding: 4px 16px; vertical-align: middle; overflow: hidden; text-decoration: none; color: inherit; background-color: inherit; text-align: center; cursor: pointer; white-space: nowrap; } 
+.text_lineheight { line-height: 2.5; margin:0 } 
+.w3-sidebar { margin-top: -0px; } 
+.text_left { text-align: left; padding-left:10px; } 
+.text_center { text-align: center; } 
+.title ul { margin-block-start: 0; margin-block-end: 0; margin-inline-start: 0; margin-inline-end: 0; padding-inline-start: 0; padding: 10px 4px; } 
+.titl { font-weight: 500; font-size: 24px; margin-bottom: 10px; } 
+.input-box { width: 100%; border:none; } 
+select { width: 100%; border:none; } 
+.page { width: 659px; margin: 0 auto; } 
+.page > ul > li { float: left; text-align: center; } 
+.page a { text-decoration: none; display: inline-block; padding: 8px 16px; } 
+.page a:hover { background-color: #ddd; color: black; } 
+.page .previous { background-color: #fff; color: black; } 
+.page .next { background-color: #fff; color: black; } 
+.page .round { border-radius: 50%; } 
+input[type=number],input[type=text] { width: 80%; display: inline-block; border: none; background: #fff; } 
+.inp_sty { width: 50%; border: 1px solid #ddd; height: 50px; } 
+.in_sty { width: 92%; border: 1px solid #ddd; height: 50px; padding: 0 10px; } 
+textarea { padding: 10px; } 
+.dropdown-btn { padding: 6px 8px 6px 16px; text-decoration: none; display: block; border: none; background: none; width: 100%; text-align: left; cursor: pointer; outline: none; } 
+.dropdown-btn:hover { color: #f1f1f1; } 
+.dropdown-container { display: none; background-color: #262626; padding-left: 8px; } 
+.fa-caret-down { float: right; padding-right: 8px; } 
+
+.mainColor { background: #c8994b;color: #000;font-weight: bold; }
+.subColor { background: #f2b759;color: #000;font-weight: bold; } 
+
+/* Full-width input fields */
+.modal input[type=text], .modal input[type=password], input[type=tel], .modal select { width: 100%; padding: 15px; margin: 5px 0 22px 0; display: inline-block; border: none; background: #f1f1f1; } 
+ 
+/* Add a background color when the inputs get focus */
+.modal input[type=text]:focus, input[type=password]:focus { background-color: #ddd; outline: none; } 
+
+/* 취소/신규등록 button */
+.cancelbtn { float: left; width: 49%; padding: 14px 20px; border: none; background: #aaa; } 
+.signupbtn, .modify { float: right; width: 49%; padding: 14px 20px; border: none; background: #ffaa00; } 
+
+/* The Modal (background) */
+.modal { display: none; position: fixed; z-index: 5; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: #474e5d8a; padding-top: 50px; } 
+ 
+/* Modal Content/Box */
+.modal-content { background-color: #fefefe; margin: 0 auto 15% auto; border: 1px solid #888; width: 600px; } 
+.modal-content02 { background-color: #fefefe; margin: 0 auto 15% auto; border: 1px solid #888; width: 300px; } 
+/* Style the horizontal ruler */
+hr { border: 1px solid #f1f1f1; margin-bottom: 25px; } 
+
+/* The Close Button (x) */
+.close { position: relative; left: 50%; margin-left: 240px; top: 80px; font-size: 40px; font-weight: bold; color: #aaa; } 
+.close:hover, .close02:hover, .close:focus, .close02:focus { color: #000; cursor: pointer; } 
+.close02 { position: relative; left: 50%; margin-left: 100px; top: 74px; font-size: 40px; font-weight: bold; color: #aaa; } 
+
+/* Clear floats */
+.clearfix::after { content: ""; clear: both; display: table; } 
+.popup { padding: 20px; } 
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {.cancelbtn, .signupbtn { width: 100%; } 
+ }
+ @media screen and (max-width: 768px) {.heade{padding-left: 0px;}.mMarTop{margin-top: 10px;}
+ }
+ @media screen and (max-width: 1535px) {.mMarTop{margin-top: 10px;}
+ }
+
+.te_al { display: none; color: red; } 
+.tex_sty > p { margin:0px; text-align: center; padding:0 10px; } 
+.popup_btn { border: none; display: inline-block; padding: 4px 12px; vertical-align: middle; overflow: hidden; text-decoration: none; color: inherit; background-color: inherit; text-align: center; cursor: pointer; white-space: nowrap; } 
+
+/* Style the tab */
+.tab { overflow: hidden; background-color: #f1f1f1; border-bottom: 1px solid #ccc; } 
+
+/* Style the buttons inside the tab */
+.tab button { background-color: inherit; float: left; border: 1px solid #ccc; border-radius: 10px 10px 0 0; border-bottom: none; margin-right: 2px; outline: none; cursor: pointer; padding: 14px 16px; transition: 0.3s; font-size: 17px; } 
+
+/* Change background color of buttons on hover */
+.tab button:hover { background-color: #ddd; } 
+
+/* Create an active/current tablink class */
+.tab button.active { background-color: #fff; border-left: 1px solid #ccc; border-right: 1px solid #ccc; } 
+
+/* Style the tab content */
+.tabcontent { display: none; padding: 6px 12px; border: 1px solid #ccc; border-top: none; background-color: #fff; } 
+
+
+
+
+/********************************************/
+
+
+

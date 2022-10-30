@@ -1,0 +1,13 @@
+/* master.css */
+
+/****  *****/
+@import url(style.css);
+@import url(reset.css);
+@import url(newstyle.css);
+
+/****  
+@import url(header.css);
+
+@import url(contents.css);
+
+@import url(footer.css);****/

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>NS.pay Admin</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+</head>
+
+<body class="w3-light-grey">
+    <div class="nav-wrap">
+        <!-- Top container -->
+        <div class="w3-bar w3-top w3-dark-navy w3-large" style="z-index:4; height: 45px;">
+            <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey"
+                onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
+            <a href="login.html"><button class="log_btn  w3-right">로그인  <i class="fa fa-arrow-right"></i></button></a>
+            <p class="text_whit w3-right text_lineheight">admin</p>
+        </div>
+
+        <!-- Sidebar/menu -->
+       
+    <!---------------------------- restart --------------------------->
+    <div class="find-wrap">
+        <div class="find-tt-wrap clearfix">
+            <div class="tt-id bold lt"><a href="find-id.html">아이디 찾기</a></div>
+            <div class="tt-pw thin lt"><a href="find-pw.html">비밀번호 재설정</a></div>
+        </div>
+        <div class="hr2"></div>
+        <div class="find-content-wrap">
+            <div class="find-result">아이디는 <span>TEST1234</span> 입니다.</div>
+            <div class="button-wrap">
+                <button class="result-button" onclick="location.href='login.html'">로그인</button>
+            </div>
+        </div>
+        <div class="hr3"></div>
+        <div class="find-tag">NSPAY 관리자</div>
+    </div>
+
+
+
+
+    <script>
+        // Get the Sidebar
+        var mySidebar = document.getElementById("mySidebar");
+
+        // Get the DIV with overlay effect
+        var overlayBg = document.getElementById("myOverlay");
+
+        // Toggle between showing and hiding the sidebar, and add overlay effect
+        function w3_open() {
+            if (mySidebar.style.display === 'block') {
+                mySidebar.style.display = 'none';
+                overlayBg.style.display = "none";
+            } else {
+                mySidebar.style.display = 'block';
+                overlayBg.style.display = "block";
+            }
+        }
+
+        // Close the sidebar with the close button
+        function w3_close() {
+            mySidebar.style.display = "none";
+            overlayBg.style.display = "none";
+        }
+
+        // sidebar dropdown
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+
+
+
+
+</body>
